@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>feedback</title>
+  
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand">Students feedback</h1>
+    <div class="wrapper ">
+      <div class="company-info">
+      </div>
+      <div class="contact">
+        <h3>Email Us</h3>
+        <div class="alert" id="alert">Thank you for your feedback, dear friend!</div>
+        <form id="contactForm">
+          <p>
+            <label>Name</label>
+            <input type="text" name="name" id="name">
+          </p>
+          <p>
+            <label>Track</label>
+            <select name="track" id="track">
+              <option value="ai">AI</option>
+              <option value="web">Web</option>
+              <option value="game">Game</option>
+            </select>
+          </p>
+          <p>
+            <label>Slide name (or object)</label>
+            <input type="text" name="slide" required="true" id="slide" >
+          </p>
+          <p class="full">
+            <label>Message</label>
+            <textarea name="message" rows="20" id="message"></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+          <p>Don't forget to click submit please !</p>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
